@@ -59,6 +59,7 @@
   bottom: 0;
   margin-bottom: 285px;
   width: 300px;
+  cursor: pointer;
 }
 
 @media (max-width: 640px) {
