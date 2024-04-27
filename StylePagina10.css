@@ -33,14 +33,16 @@
   align-items: center;
   margin-bottom: 24px;
   border-radius: 8px;
-
 }
 
-.order img {
-    width: 15px;
-    height: 15px;
+.flecha {
+  width: 25px;
+  height: 25px;
+  background-image: url(./Icons/flecha.png);
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el botón */
+  background-position: center; /* Ajusta la posición de la imagen */
+  cursor: pointer;
 }
-
 .my-order-content p:nth-child(1) {
   display: flex;
   flex-direction: column;
