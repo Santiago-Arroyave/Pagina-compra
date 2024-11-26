@@ -15,7 +15,7 @@
   place-items: center;
 }
 
-nav{
+nav {
   width: 95%;
   display: flex;
   justify-content: space-between;
@@ -23,7 +23,7 @@ nav{
   border-bottom: 1px solid var(--very-light-pink);
 }
 
-.menu{
+.menu {
   display: none;
 }
 
@@ -34,7 +34,7 @@ nav{
 }
 
 .navbar-left ul,
-.navbar-right ul{
+.navbar-right ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -43,16 +43,16 @@ nav{
   height: 60px;
 }
 
-.navbar-left{
+.navbar-left {
   display: flex;
 }
 
-.navbar-left ul{
+.navbar-left ul {
   margin-left: 12px;
 }
 
 .navbar-left ul li a,
-.navbar-right ul li a{
+.navbar-right ul li a {
   text-decoration: none;
   color: var(--very-light-pink);
   border: 1px solid var(--white);
@@ -62,7 +62,7 @@ nav{
 
 /*para el hover el color cuando ponemos le mause encima*/
 .navbar-left ul li a:hover,
-.navbar-right ul li a:hover{
+.navbar-right ul li a:hover {
   text-decoration: none;
   color: var(--very-light-pink);
   border: 1px solid black;
@@ -73,7 +73,7 @@ nav{
   position: relative;
 }
 
-.navbar-shopping-cart div{
+.navbar-shopping-cart div {
   width: 20px;
   height: 20px;
   background-color: var(--hospital-green);
@@ -92,7 +92,7 @@ nav{
   height: 40px;
 }
 
-.navbar-email{
+.navbar-email {
   color: var(--very-light-pink);
   font-size: var(--sm);
   margin-right: 12px;
@@ -237,23 +237,23 @@ nav{
   }
 }
 
-@media(max-width: 740px){
+@media (max-width: 740px) {
   .menu {
     margin-top: 15px;
     width: 30px;
     height: 30px;
     display: block;
-    background-image: url('./Icons/menu.png');
+    background-image: url("./Icons/menu.png");
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el botón */
     background-position: center; /* Ajusta la posición de la imagen */
     border-radius: 5px;
     cursor: pointer;
   }
-  .navbar-left ul{
+  .navbar-left ul {
     display: none;
   }
 
-  .navbar-email{
+  .navbar-email {
     display: none;
   }
 
